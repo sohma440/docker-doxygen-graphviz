@@ -1,0 +1,7 @@
+version: "2"
+services:
+  doxygen:
+    build: .
+    volumes:
+      - .:/work
+    working_dir: /work
